@@ -12,7 +12,7 @@ let layoutFront = {
                 ]),
                 m("div.topbar"),
                 m('img.logo', {
-                    src: "../../src/WIVIwhite-02.png",
+                    src: "src/WIVIwhite-02.png",
 
                     style: `
                     opacity: 0;
@@ -35,7 +35,7 @@ let layoutFront = {
             ]),
             m("div.topbar"),
             m('img.logo', {
-                src: "../../src/WIVIwhite-02.png",
+
 
                 style: `
                     opacity: 0;
