@@ -440,6 +440,7 @@ i {
 }
 
 .artObj {
+  padding: 0.9rem;
   width: 100%;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -503,6 +504,7 @@ i {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-image: "./src/WIVIwhite-02.png";
 }
 
 .titlecontainer {
@@ -682,6 +684,7 @@ span {
   font-size: 1.5rem;
   margin-top: 0;
   color: #232020;
+  margin: 0 auto;
 }
 
 .prompt {

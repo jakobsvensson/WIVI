@@ -6,10 +6,10 @@ let layout = {
     view: function (vnode) {
         return [
             m("nav.top-nav", [
-                m("a.nav-home fas fa-home", { href: "#!/" }),
+                m("a.nav-home fas fa-undo-alt", { href: "#!/" }),
             ]),
             m("div.topbar"),
-            m("img.logo", { src: "../../src/WIVIwhite-02.png"}),
+            m("img.logo"),
             m("main.container", vnode.children)
         ];
     }

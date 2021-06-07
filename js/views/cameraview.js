@@ -55,6 +55,7 @@ function upload(e) {
                     savemodel.addImgToFav(result.data.link, savemodel.saveData); //add imgur link to fav
                 }
             }
+            m.redraw();
             m.route.set("/prearchiveview/:url", { url: result.data.link });
         })
         .catch(function (e) {
