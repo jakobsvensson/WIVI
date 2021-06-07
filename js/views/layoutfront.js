@@ -11,19 +11,7 @@ let layoutFront = {
                     m("a.nav-home fas fa-user-circle", { href: "#!/favoriteview" }),
                 ]),
                 m("div.topbar"),
-                m('img.logo', {
-
-                    style: `
-                    opacity: 0;
-                    transition: 1s ease-in-out;
-                `,
-                    onload(e) {
-                        e.target.style.cssText += `
-                        opacity: 1;
-                    `;
-                        e.redraw = true;
-                    },
-                }),
+                m('div.logo'),
                 m("main.container", vnode.children)
             ];
         }
@@ -33,20 +21,7 @@ let layoutFront = {
                 m("a.nav-home fas fa-user-circle", { href: "#!/account" }),
             ]),
             m("div.topbar"),
-            m('img.logo', {
-                src: "../../src/WIVIwhite-02.png",
-
-                style: `
-                    opacity: 0;
-                    transition: 1s ease-in-out;
-                `,
-                onload(e) {
-                    e.target.style.cssText += `
-                        opacity: 1;
-                    `;
-                    e.redraw = true;
-                },
-            }),
+            m('div.logo'),
             m("main.container", vnode.children)
         ];
     }

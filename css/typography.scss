@@ -10,9 +10,11 @@ i {
 }
 
 h1 {
-    color: $extraLight;
+    font-family: $font-titles;
+    color: $dark;
     margin: 0 auto;
-    padding-bottom: 1.5rem;
+    // padding-bottom: 1.5rem;
+    text-align: center;
 }
 
 a {
