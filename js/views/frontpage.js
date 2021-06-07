@@ -18,8 +18,8 @@ let frontpage = {
                     m("a.roundText", { href: "#!/archiveview" }, "ARCHIVE"),
                 ]),
             ]),
-            m("div.intro", `Word-Inspired-Visual-Images will help you
-            kick-start your visual brainstorming session. Grab your art supplies!`),
+            m("div.intro", `Word-Inspired-Visual-Interpretation will help you
+            kick-start your visual brainstorming session. Grab your art supplies and let's go!`),
             m("h1", "How does it work?"),
             m("div.introstep", [
                 m("div.stepTitle", "✍️"),

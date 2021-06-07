@@ -142,7 +142,7 @@ tr.inv {
     background: transparent;
     border-radius: 50%;
     border-width: 0px;
-    width: 40%;
+    // width: 40%;
     margin: 0 auto;
     text-decoration: none;
     color: black;
@@ -160,8 +160,8 @@ tr.inv {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     padding-bottom: 1rem;
 }
 
