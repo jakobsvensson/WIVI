@@ -1,0 +1,220 @@
+body {
+    background: $extraLight;
+}
+
+i {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.topbar {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 0.8rem;
+    background: $dark;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: $accent;
+    z-index: -1;
+}
+
+.container {
+    padding: 1rem;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 3.2rem;
+    display: flex;
+    flex-flow: column;
+    width: clamp(50vw, 60vw, 70vw);
+    margin: 0 auto;
+}
+
+.container p {
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+// .container img {
+//     width: 100%;
+// }
+
+.form {
+    display: flex;
+    flex-flow: column;
+    padding: 0.8rem;
+    background: linear-gradient($light, $extraLight);
+}
+
+.form.new {
+    background: linear-gradient($dark, $extraLight);
+}
+
+.input {
+    margin-bottom: 0.9rem;
+    margin-top: 0.2rem;
+    background-color: $extraLight;
+    color: $dark;
+}
+
+.input-label {
+    color: $extraLight;
+}
+
+.form {
+    margin: 1rem;
+}
+
+.input i {
+    background-color: $accent;
+}
+
+.deliveries {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.delivery {
+    background: $light;
+    border-radius: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.delInfo {
+    line-height: 0.5rem !important;
+    margin: 1rem;
+}
+
+//animations
+
+@keyframes moveFromRight {
+    from { transform: translateX(100%); }
+}
+
+@keyframes moveToRight {
+    to { transform: translateX(100%); }
+}
+
+.slide-in {
+    animation: moveFromRight 0.4s ease both;
+}
+
+.slide-out {
+    animation: moveToRight 0.4s ease both;
+}
+
+.artObj {
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.wordcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fade-in {
+    animation: fade-in 1s ease-out;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.intro {
+    font-family: $font-body;
+    font-size: 1rem;
+    padding: 1rem;
+    background: $extraLight;
+    border: 1px solid $dark;
+    margin: 1rem;
+}
+
+.introstep {
+    padding: 1rem;
+    background: $lighter;
+    margin: 1rem;
+}
+
+.stepTitle {
+    font-family: $font-titles;
+    font-size: 1.2rem;
+}
+
+.stepDesc {
+    font-family: $font-body;
+    font-size: 1rem;
+}
+
+.imgThumb {
+    width: 50%;
+    object-fit: contain ;
+}
+
+#cameraImg {
+    width: 50%;
+}
+
+.logo {
+    padding-top: 0.5rem;
+    width: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlecontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.linebreak {
+    width:100%;
+}
+
+.artcontainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.favcontainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: .5rem;
+}
+
+.archiveContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.archiveObject {
+    width: 80%;
+}
+
+.archiveImg {
+    width: 100%;
+}
+
+.archiveTitle {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: -1.1rem;
+}

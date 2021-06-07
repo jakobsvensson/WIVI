@@ -1,0 +1,40 @@
+.top-nav {
+    font-family: $font-titles;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    // padding-top: 1.1rem;
+    // padding-bottom: 1rem;
+    background: $dark;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: $accent;
+    margin-bottom: env(safe-area-inset-bottom); /* iOS 11.2 */
+    position: fixed;
+    overflow: auto;
+    z-index: 5;
+}
+
+.top-nav a {
+    text-align: center;
+    color: $extraLight;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: .9rem;
+}
+
+.top-nav a.active {
+    color: #4e75ba;
+}
+
+.nav-home {
+    color: $light !important;
+}
+.top-nav a {
+    display: block;
+}
+
+.top-nav span {
+    font-size: 0.7rem;
+}
