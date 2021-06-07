@@ -90,7 +90,7 @@
 }
 
 .newBtn:hover {
-    background: $accent;
+    background: $dark;
     color: $light;
 }
 
@@ -106,15 +106,15 @@ tr.inv {
     // margin-bottom: 0.8rem;
     padding: 1rem;
     text-align: center;
-    background: linear-gradient($accent 1%, $ligthAccent);
+    background: linear-gradient($accent 1%, $light);
     border: 5px solid $extraLight;
     text-decoration: none;
     color: black;
 }
 
 .wordBtn:hover {
-    background: $accent;
-    color: $light;
+    background: $dark;
+    color: $extraLight;
 }
 
 .roundBtn {

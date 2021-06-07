@@ -352,7 +352,7 @@ i {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  color: #cbcae0;
+  color: #bdbdc5;
   z-index: -1;
 }
 
@@ -376,7 +376,7 @@ i {
   display: flex;
   flex-flow: column;
   padding: 0.8rem;
-  background: linear-gradient(#cbcae0, #F5F5F5);
+  background: linear-gradient(#bdbdc5, #F5F5F5);
 }
 
 .form.new {
@@ -399,7 +399,7 @@ i {
 }
 
 .input i {
-  background-color: #cbcae0;
+  background-color: #bdbdc5;
 }
 
 .deliveries {
@@ -408,7 +408,7 @@ i {
 }
 
 .delivery {
-  background: #cbcae0;
+  background: #bdbdc5;
   border-radius: 15px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -494,7 +494,7 @@ i {
 .stepDesc {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  background: #cbcae0;
+  background: #bdbdc5;
   padding: 0.9rem;
 }
 
@@ -575,7 +575,7 @@ i {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  color: #cbcae0;
+  color: #bdbdc5;
   margin-bottom: env(safe-area-inset-bottom);
   /* iOS 11.2 */
   position: fixed;
@@ -596,7 +596,7 @@ i {
 }
 
 .nav-home {
-  color: #cbcae0 !important;
+  color: #bdbdc5 !important;
 }
 
 .top-nav a {
@@ -707,7 +707,7 @@ span {
   margin-top: -1rem;
   padding: 1rem;
   font-size: 0.7rem;
-  color: #cbcae0;
+  color: #bdbdc5;
   width: 50%;
 }
 
@@ -774,7 +774,7 @@ span {
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #F5F5F5);
+  background: linear-gradient(#bdbdc5 1%, #F5F5F5);
   border-radius: 15px;
   border-width: 0px;
   width: 100%;
@@ -782,8 +782,8 @@ span {
 }
 
 .submitBtn:hover {
-  background: #cbcae0;
-  color: #cbcae0;
+  background: #bdbdc5;
+  color: #bdbdc5;
 }
 
 .newBtn {
@@ -803,8 +803,8 @@ span {
 }
 
 .newBtn:hover {
-  background: #cbcae0;
-  color: #cbcae0;
+  background: #232020;
+  color: #bdbdc5;
 }
 
 tr.inv {
@@ -818,15 +818,15 @@ tr.inv {
   margin-top: 0.8rem;
   padding: 1rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #bdbdc5);
   border: 5px solid #F5F5F5;
   text-decoration: none;
   color: black;
 }
 
 .wordBtn:hover {
-  background: #cbcae0;
-  color: #cbcae0;
+  background: #232020;
+  color: #F5F5F5;
 }
 
 .roundBtn {
@@ -834,7 +834,7 @@ tr.inv {
   margin-bottom: 0.8rem;
   padding: 1.3rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #DCEAF9);
   border-radius: 50%;
   border-width: 0px;
   width: 1%;
@@ -882,7 +882,7 @@ tr.inv {
   margin-top: 0.8rem;
   padding: 1rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #DCEAF9);
   border: 5px solid #F5F5F5;
   text-decoration: none;
   color: black;
@@ -893,7 +893,7 @@ tr.inv {
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #DCEAF9);
   border: 10px solid #F5F5F5;
   text-decoration: none;
   color: black;
@@ -910,7 +910,7 @@ tr.inv {
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #DCEAF9);
   border: 10px solid #F5F5F5;
   text-decoration: none;
   color: black;
@@ -921,7 +921,7 @@ tr.inv {
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #DCEAF9);
   border: 10px solid #F5F5F5;
   text-decoration: none;
   color: black;
@@ -936,7 +936,7 @@ tr.inv {
   font-size: 0.8rem;
   padding: 0.8rem;
   text-align: center;
-  background: linear-gradient(#cbcae0 1%, #DCEAF9);
+  background: linear-gradient(#bdbdc5 1%, #DCEAF9);
   border: 5px solid #F5F5F5;
   text-decoration: none;
   color: black;

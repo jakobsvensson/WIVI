@@ -88,7 +88,7 @@ let frontpage = {
             }, [
                 m("div.stepTitle", "🎨"),
                 m("div.stepDesc", `You will be presented with 2 images and 
-                a 'Strategy'. Interpret and create!`)
+                a 'Strategy'. Interpret your title, images, Strategy - and create!`)
             ]),
             m("div.introstep", {
                 style: `

@@ -7,7 +7,7 @@ let oblique = {
         "Here is the moodboard for your next thing. Now make it!",
         "Does the title inspire you more than the images do? Go with that then!",
         "That second image is pretty cool. I bet you could make it cooler though.",
-        "Good ideas need hard work to find. Now make something out of what you see here.",
+        "Good ideas need hard work to be found. Now make something out of what you see here.",
     ],
     strategies: [
         'Abandon favorite tools',
