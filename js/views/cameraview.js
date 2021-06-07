@@ -3,8 +3,8 @@
 import m from "mithril";
 import savemodel from "../models/savemodel";
 
-// let trueAlbumID = "ahsYNWa";
-let trueAlbumDelete = "cYWf40e2C8WOWkO";    //also in savemodel-getarchive
+// let trueAlbumID = "Mac86rR";
+let trueAlbumDelete = "65BRe5wJjq0cruu";    //also in savemodel-getarchive
 
 let imgurClient = "41dec9efbbede41";
 // let imgurClientSecret = "f89953e5c719d0bea4ce88c21ab96f34285a856e";
