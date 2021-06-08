@@ -6,7 +6,7 @@ let layout = {
     view: function (vnode) {
         return [
             m("nav.top-nav", [
-                m("a.nav-home fas fa-undo-alt", { href: "#!/" }),
+                m("a.nav-home fas fa-house-user", { href: "#!/" }),
             ]),
             m("div.topbar"),
             m("div.logo"),
