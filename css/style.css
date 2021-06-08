@@ -927,6 +927,11 @@ tr.inv {
   color: black;
 }
 
+.finishedBtn:hover {
+  background: #232020;
+  color: #F5F5F5;
+}
+
 .favchoice {
   padding: 0.8rem;
 }

@@ -217,6 +217,11 @@ tr.inv {
     color: black;
 }
 
+.finishedBtn:hover {
+    background: $dark;
+    color: $extraLight;
+}
+
 .favchoice {
     padding: .8rem;
 }
