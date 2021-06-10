@@ -162,7 +162,7 @@ let savemodel = {
             .then(function (result) {
                 archiveview.imageArray = result.data.reverse();
                 archiveview.archiveReady = true;
-                return result.data.reverse();
+                return result.data;
             });
     }
 };
