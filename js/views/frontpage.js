@@ -55,7 +55,7 @@ let frontpage = {
                     }, 3000);
                 }
             }, [
-                m("div.stepTitle", "✍️"),
+                m("div.stepTitle fas fa-random"),
                 m("div.stepDesc", "Pick a random word.")
             ]),
             m("div.introstep", {
@@ -70,7 +70,7 @@ let frontpage = {
                     }, 4000);
                 }
             }, [
-                m("div.stepTitle", "📚"),
+                m("div.stepTitle fas fa-book"),
                 m("div.stepDesc", `Choose a second word from the 
                 book titles.`)
             ]),
@@ -86,7 +86,7 @@ let frontpage = {
                     }, 5000);
                 }
             }, [
-                m("div.stepTitle", "🎨"),
+                m("div.stepTitle fas fa-palette"),
                 m("div.stepDesc", `You will be presented with 2 images and 
                 a 'Strategy'. Interpret your title, images, Strategy - and create!`)
             ]),
@@ -102,7 +102,7 @@ let frontpage = {
                     }, 6000);
                 }
             }, [
-                m("div.stepTitle", "🚀"),
+                m("div.stepTitle fas fa-rocket"),
                 m("div.stepDesc", "If you want, share your work to the Archive.")
             ]),
 

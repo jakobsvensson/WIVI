@@ -7,6 +7,7 @@ let wordview = {
     },
     view: function () {
         return [
+            m("div.prompt", "Here are some random words. Choose one that seems interesting."),
             m("div.title", "Pick one"),
             m("div.wordcontainer", [
                 bookmodel.currentWords.map(function (word) {

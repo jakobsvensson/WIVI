@@ -11,7 +11,7 @@ let layoutFront = {
                     m("a.nav-home fas fa-user-circle", { href: "#!/favoriteview" }),
                 ]),
                 m("div.topbar"),
-                m('div.logo'),
+                m('a.logo', { href: "#!/" }),
                 m("main.container", vnode.children)
             ];
         }
@@ -21,7 +21,7 @@ let layoutFront = {
                 m("a.nav-home fas fa-user-circle", { href: "#!/account" }),
             ]),
             m("div.topbar"),
-            m('div.logo'),
+            m('a.logo', { href: "#!/" }),
             m("main.container", vnode.children)
         ];
     }

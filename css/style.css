@@ -489,6 +489,7 @@ i {
   font-size: 1.4rem;
   text-align: center;
   padding-bottom: 0.6rem;
+  display: block !important;
 }
 
 .stepDesc {
@@ -564,6 +565,50 @@ i {
   text-align: center;
   padding: 1.5rem;
   margin-top: -1.1rem;
+}
+
+.diagonal {
+  background-image: linear-gradient(45deg, #232020, black);
+  transform: skewY(20deg);
+  height: 300vw;
+}
+
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+  transform: skewY(-20deg);
+  padding: 3rem;
+}
+
+.splashtitle {
+  max-width: 50em;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  margin-top: 0;
+  color: #232020;
+  padding-bottom: 1rem;
+}
+
+.splashtext {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 4rem;
+  color: #232020;
+  max-width: 40em;
+}
+
+.splashlogo {
+  padding-top: 0.5rem;
+  width: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("https://jakobsvensson.github.io/WIVI/src/WIVI-01.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 4rem;
 }
 
 .top-nav {
@@ -709,6 +754,7 @@ span {
   font-size: 0.7rem;
   color: #bdbdc5;
   width: 50%;
+  margin: 0 auto;
 }
 
 .backBtn {

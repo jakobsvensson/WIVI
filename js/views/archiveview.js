@@ -32,12 +32,12 @@ let archiveview = {
                 m("div.archiveContainer", [
                     currentPage.map(function (data) {
                         return m("div.archiveObject", [
-                            m("img.archiveImg", { src: data.link }),
-                            m("div.archiveTitle", data.title)
+                            m("div.archiveTitle", data.title),
+                            m("img.archiveImg", { src: data.link })
                         ]);
                     })
                 ]),
-                (maxImg != archiveview.imageArray.length) ? m("div.finishedBtn", {
+                (maxImg != archiveview.imageArray.length + 1) ? m("div.finishedBtn", {
                     onclick: function() {
                         minImg += 2;
                         maxImg += 2;

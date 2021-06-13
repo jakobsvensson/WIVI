@@ -23,7 +23,9 @@ let bookview = {
     },
     view: function () {
         return [
-            m("div.title", "Pick another"),
+            m("div.prompt", `You chose the word ${randomWord.toUpperCase()}. I used that word to find book titles. 
+            pick one more word here!`),
+            m("div.title", "One more word"),
             m("div.wordcontainer", [
                 bookmodel.currentBookList.map(function (book) {
                     wordsWithLinks = titleToLinks(book);

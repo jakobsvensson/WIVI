@@ -9,7 +9,7 @@ let layout = {
                 m("a.nav-home fas fa-house-user", { href: "#!/" }),
             ]),
             m("div.topbar"),
-            m("div.logo"),
+            m("a.logo", { href: "#!/" }),
             m("main.container", vnode.children)
         ];
     }

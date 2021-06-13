@@ -18,12 +18,19 @@ import archiveview from "./views/archiveview";
 import prearchiveview from "./views/prearchiveview";
 import uploaderror from "./views/uploaderror";
 import savemodel from "./models/savemodel";
+import splash from "./views/splash";
 
 document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
     m.route(document.body, "/", {
         "/": {
+            render: function () {
+                savemodel.favorited = false;
+                return m(splash);
+            }
+        },
+        "/frontpage": {
             render: function () {
                 savemodel.favorited = false;
                 return m(layoutFront, m(frontpage));
