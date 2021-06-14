@@ -255,7 +255,7 @@ i {
     // transform: skewY(-60deg);
     // padding: 3rem;
     overflow: hidden;
-    height: 100vh;
+    height: 120vh;
 }
 .splashtitle { 	
 	max-width: 50em;
@@ -266,8 +266,7 @@ i {
     color: white;
     padding-bottom: 1rem;
     mix-blend-mode: difference;
-    padding: 3rem;
-    padding-left: 3.9rem;
+    padding-top: 2rem;
     width: clamp(10rem, 20rem, 20rem);
 }
 
