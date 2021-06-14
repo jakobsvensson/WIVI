@@ -238,15 +238,24 @@ i {
 }
 
 .diagonal {
-	background-image: linear-gradient(45deg, $dark, black);
-    transform: skewY(20deg);
+	background: linear-gradient(45deg, white, white);
+    transform: skewY(60deg);
     height: 300vw;
-} 
+    z-index: -4;
+    width: 160%;
+}
+.diagBG {
+    background-color: black;
+    z-index: -2;
+    mix-blend-mode: difference;
+}
 .content { 	
-	max-width: 50em;
-    margin: 0 auto; 
-    transform: skewY(-20deg);
-    padding: 3rem;
+	// max-width: 50em;
+    // margin: 0 auto; 
+    // transform: skewY(-60deg);
+    // padding: 3rem;
+    overflow: hidden;
+    height: 100vh;
 }
 .splashtitle { 	
 	max-width: 50em;
@@ -254,27 +263,90 @@ i {
     font-family: $font-titles;
     font-size: 2rem;
     margin-top: 0;
-    color: $dark;
+    color: white;
     padding-bottom: 1rem;
+    mix-blend-mode: difference;
+    padding: 3rem;
+    padding-left: 3.9rem;
+    width: clamp(10rem, 20rem, 20rem);
 }
-.splashtext {
+
+.bgtext {
     font-family: $font-titles;
     font-size: 1rem;
-    padding-bottom: 4rem;
-    color: $dark;
+    padding-bottom: 2rem;
+    color: black;
     max-width: 40em;
+    z-index: -1;
+    padding-top: 0rem;
+    width: 20rem;
+    margin: 0 auto;
 }
 
 .splashlogo {
     padding-top: 0.5rem;
-    width: 4rem;
+    width: 10rem;
+    height: 10rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    // background-image: url("../src/WIVIwhite-02.png");
     background: url("https://jakobsvensson.github.io/WIVI/src/WIVI-01.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 4rem;
+    z-index: 1;
 }
+
+.diagBtn {
+    font-family: $font-titles;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient($dark 1%,black);
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    width: 10rem;
+    margin: auto;
+    display: block;
+    z-index: 7;
+    position: relative;
+}
+.diagBtn:hover {
+    background: linear-gradient($extraLight 1%, white);
+    border: 2px solid $dark;
+    color: black;
+}
+// .logocontainer {
+//     position: relative;
+// }
+
+// .splashlogo:before {
+//     position: relative;
+//     content: "";
+//     padding-top: 0.5rem;
+//     width: 7rem;
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     height: 7rem;
+//     background: url("https://jakobsvensson.github.io/WIVI/src/WIVI-01.png");
+//     background-size: contain;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     mix-blend-mode: overlay;
+// }
+// .splashlogo:after {
+//     position: relative;
+//     content: "";
+//     padding-top: 0.5rem;
+//     width: 7rem;
+//     margin-left: auto;
+//     margin-right: auto;
+//     height: 7rem;
+//     background: url("https://jakobsvensson.github.io/WIVI/src/WIVIwhite-02.png");
+//     background-size: contain;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     mix-blend-mode: overlay;
+// }
