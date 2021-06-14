@@ -16,7 +16,7 @@ let splash = {
                     m("li.entry", "A 'Strategy'"), 
                 ]),
                 m("div.bgtext", `Use this to make a quick sketch, take a photo, write a poem or
-                                maybe a LEGO sculpture. Hopefully it will get you ready to brainstorm!`),
+                                maybe build a LEGO sculpture. Hopefully it will get you ready to brainstorm!`),
                 m("a.diagBtn", { href: "#!/frontpage" }, "START WIVI"),
                 m("div.diagBG", [
     
