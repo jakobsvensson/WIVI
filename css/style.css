@@ -559,12 +559,15 @@ i {
 
 .archiveImg {
   width: 100%;
+  border: 4px solid #232020;
 }
 
 .archiveTitle {
   text-align: center;
-  padding: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
   margin-top: -1.1rem;
+  font-size: 1.3rem;
 }
 
 .diagonal {
