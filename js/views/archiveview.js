@@ -2,6 +2,7 @@
 
 import m from "mithril";
 import savemodel from "../models/savemodel";
+import blacklist from "../../src/blacklist";
 
 // let imgurClient = "41dec9efbbede41";
 // let imgurClientSecret = "f89953e5c719d0bea4ce88c21ab96f34285a856e";
@@ -31,13 +32,16 @@ let archiveview = {
                 for future viewers.`),
                 m("div.archiveContainer", [
                     currentPage.map(function (data) {
-                        return m("div.archiveObject", [
-                            m("div.archiveTitle", data.title),
-                            m("img.archiveImg", { src: data.link })
-                        ]);
+                        // console.log(data);
+                        if (!(blacklist.blackIDs.includes(data.id))) {  //check if in blacklist
+                            return m("div.archiveObject", [
+                                m("div.archiveTitle", data.title),
+                                m("img.archiveImg", { src: data.link })
+                            ]);
+                        }
                     })
                 ]),
-                (maxImg != archiveview.imageArray.length + 1) ? m("div.finishedBtn", {
+                (maxImg != archiveview.imageArray.length) ? m("div.finishedBtn", {
                     onclick: function() {
                         minImg += 2;
                         maxImg += 2;
