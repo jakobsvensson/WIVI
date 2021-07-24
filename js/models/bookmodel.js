@@ -52,22 +52,29 @@ let getBookshelf = function(word) {
 };
 
 let getRandomWord = function() {
-    m.request({
-        method: "GET",
-        url: `https://random-word-api.herokuapp.com/word?number=5`,
-    })
-        .then(function () {
-            currentWords.length = 0;
+    currentWords.length = 0;
 
-            for (let i = 0; i < 5; i++) {  //local dictionary instead, this request can be removed
-                let number = Math.floor(Math.random() * 1000);
+    for (let i = 0; i < 5; i++) {  //local dictionary instead, this request can be removed
+        let number = Math.floor(Math.random() * 1000);
 
-                currentWords.push(top1k.topwords[number]);
-            }
-            // for (let i = 0; i < result.length; i++) {
-            //     currentWords.push(result[i]);
-            // }
-        });
+        currentWords.push(top1k.topwords[number]);
+    }
+    // m.request({
+    //     method: "GET",
+    //     url: `https://random-word-api.herokuapp.com/word?number=5`,
+    // })
+    //     .then(function () {
+    //         currentWords.length = 0;
+
+    //         for (let i = 0; i < 5; i++) {  //local dictionary instead, this request can be removed
+    //             let number = Math.floor(Math.random() * 1000);
+
+    //             currentWords.push(top1k.topwords[number]);
+    //         }
+    //         // for (let i = 0; i < result.length; i++) {
+    //         //     currentWords.push(result[i]);
+    //         // }
+    //     });
 };
 
 
